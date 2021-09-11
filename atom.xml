@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://jhunelectronicclub.github.io/</id>
+    <title>江汉大学电子爱好者协会</title>
+    <updated>2021-09-11T06:48:27.714Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://jhunelectronicclub.github.io/"/>
+    <link rel="self" href="https://jhunelectronicclub.github.io/atom.xml"/>
+    <subtitle>立德 致用 兼容 创新</subtitle>
+    <logo>https://jhunelectronicclub.github.io/images/avatar.png</logo>
+    <icon>https://jhunelectronicclub.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, 江汉大学电子爱好者协会</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://jhunelectronicclub.github.io/post/about/</id>
+        <link href="https://jhunelectronicclub.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到江汉大学电子爱好者协会，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<h2 id="联系我呀">📬 联系我呀</h2>
+]]></content>
+    </entry>
+</feed>
