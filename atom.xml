@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jhunelectronicclub.github.io</id>
+    <id>https://jhunelectronicclub.com</id>
     <title>江汉大学电子爱好者协会</title>
-    <updated>2021-09-11T09:28:36.340Z</updated>
+    <updated>2021-09-11T09:38:58.513Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://jhunelectronicclub.github.io"/>
-    <link rel="self" href="https://jhunelectronicclub.github.io/atom.xml"/>
+    <link rel="alternate" href="https://jhunelectronicclub.com"/>
+    <link rel="self" href="https://jhunelectronicclub.com/atom.xml"/>
     <subtitle>立德 致用 兼容 创新</subtitle>
-    <logo>https://jhunelectronicclub.github.io/images/avatar.png</logo>
-    <icon>https://jhunelectronicclub.github.io/favicon.ico</icon>
+    <logo>https://jhunelectronicclub.com/images/avatar.png</logo>
+    <icon>https://jhunelectronicclub.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 江汉大学电子爱好者协会</rights>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://jhunelectronicclub.github.io/post/about/</id>
-        <link href="https://jhunelectronicclub.github.io/post/about/">
+        <id>https://jhunelectronicclub.com/post/about/</id>
+        <link href="https://jhunelectronicclub.com/post/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
