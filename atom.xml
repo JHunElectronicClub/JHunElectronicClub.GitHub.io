@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jhunelectronicclub.com</id>
     <title>江汉大学电子爱好者协会</title>
-    <updated>2021-09-12T02:58:23.857Z</updated>
+    <updated>2021-09-12T03:00:10.625Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jhunelectronicclub.com"/>
     <link rel="self" href="https://jhunelectronicclub.com/atom.xml"/>
@@ -64,13 +64,18 @@ file_nameOfStudent;file_NumberOfStudent</p>
 接口名与抽象类名称，与类名一样<br>
 异常类名称，使用帕斯卡命名法+Exception,如：SexMissMatchException</p>
 <h2 id="python">python</h2>
-<h3 id="模块名尽量短小并且全部使用小写字母可以使用下划线分隔多个字母-例如game_maingame_register">模块名：尽量短小，并且全部使用小写字母，可以使用下划线分隔多个字母。例如：game_main;game_register</h3>
-<h3 id="包名尽量短小并且全部使用小写字母不推荐使用下划线-例如comlvzeqi-comlv">包名：尽量短小，并且全部使用小写字母，不推荐使用下划线。例如：com.lvzeqi、com.lv</h3>
-<h3 id="类名采用单词首字母大写形式帕斯卡命名法borrrowbook">类名：采用单词首字母大写形式（帕斯卡命名法）BorrrowBook</h3>
-<h3 id="模块内部类采用下划线_帕斯卡命名法-如在borrowbook内部有一个内部类则使用-_borrowbook">模块内部类：采用下划线“_”+帕斯卡命名法。如：在BorrowBook内部有一个内部类，则使用 _BorrowBook</h3>
-<h3 id="函数-类的属性和方法的命名规则同模块类似也是全部使用小写字母多个字母使用下划线分隔">函数、类的属性和方法的命名规则同模块类似，也是全部使用小写字母，多个字母使用下划线分隔</h3>
-<h3 id="常量命名时全部使用大写字母可以使用下划线分隔">常量：命名时全部使用大写字母，可以使用下划线分隔</h3>
-<p>使用单下划线开头的模块变量或者函数是受保护的，在使用from xxx import*语句从模块中导入时这些变量或者函数不能被导入<br>
+<h3 id="模块名">模块名：</h3>
+<p>尽量短小，并且全部使用小写字母，可以使用下划线分隔多个字母。例如：game_main;game_register</p>
+<h3 id="包名-2">包名：</h3>
+<p>尽量短小，并且全部使用小写字母，不推荐使用下划线。例如：com.lvzeqi、com.lv</p>
+<h3 id="类名-2">类名：</h3>
+<p>采用单词首字母大写形式（帕斯卡命名法）BorrrowBook</p>
+<h3 id="模块内部类">模块内部类：</h3>
+<p>采用下划线“_”+帕斯卡命名法。如：在BorrowBook内部有一个内部类，则使用 _BorrowBook<br>
+函数、类的属性和方法的命名规则同模块类似，也是全部使用小写字母，多个字母使用下划线分隔</p>
+<h3 id="常量-3">常量：</h3>
+<p>命名时全部使用大写字母，可以使用下划线分隔<br>
+使用单下划线开头的模块变量或者函数是受保护的，在使用from xxx import*语句从模块中导入时这些变量或者函数不能被导入<br>
 使用双下划线“__”开头的实例变量或方法是类私有的</p>
 <p>原文链接：https://blog.csdn.net/LCX13141314/article/details/86773700</p>
 ]]></content>
