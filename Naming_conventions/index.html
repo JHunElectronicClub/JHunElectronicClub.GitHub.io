@@ -1,0 +1,291 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>各种语言命名规范 | 江汉大学电子爱好者协会</title>
+<link rel="shortcut icon" href="https://jhunelectronicclub.com/favicon.ico?v=1631415490547">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://jhunelectronicclub.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="各种语言命名规范 | 江汉大学电子爱好者协会 - Atom Feed" href="https://jhunelectronicclub.com/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="前言：
+这里想要疏通一下各种语言的命名规范（注意：是写给我自己的啦！也就是规范我的个人习惯！）由于自己在编程的时候，在切换各种编程语言的时候，总是会在命名上面停顿，所以想要在此疏通一下自己的习惯，同时也是将自己的习惯分享出来，如果你看到了这..." />
+    <meta name="keywords" content="C,C++,python,java,study,new" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://jhunelectronicclub.com">
+  <img class="avatar" src="https://jhunelectronicclub.com/images/avatar.png?v=1631415490547" alt="">
+  </a>
+  <h1 class="site-title">
+    江汉大学电子爱好者协会
+  </h1>
+  <p class="site-description">
+    立德 致用 兼容 创新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/about" class="menu">
+          about
+        </a>
+      
+    
+      
+        <a href="/study" class="menu">
+          study
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/JHunElectronicClub" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              各种语言命名规范
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-09-12
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://jhunelectronicclub.com/c/" class="post-tag">
+                  # C
+                </a>
+              
+                <a href="https://jhunelectronicclub.com/c/" class="post-tag">
+                  # C++
+                </a>
+              
+                <a href="https://jhunelectronicclub.com/python/" class="post-tag">
+                  # python
+                </a>
+              
+                <a href="https://jhunelectronicclub.com/java/" class="post-tag">
+                  # java
+                </a>
+              
+                <a href="https://jhunelectronicclub.com/study/" class="post-tag">
+                  # study
+                </a>
+              
+                <a href="https://jhunelectronicclub.com/new/" class="post-tag">
+                  # new
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="前言">前言：</h1>
+<p>这里想要疏通一下各种语言的命名规范（注意：是写给我自己的啦！也就是规范我的个人习惯！）由于自己在编程的时候，在切换各种编程语言的时候，总是会在命名上面停顿，所以想要在此疏通一下自己的习惯，同时也是将自己的习惯分享出来，如果你看到了这篇文章的话，有相同的习惯的话，也可以回忆下。最后也是确立自己的命名习惯，如果有不好的，那自己以后也会按着这篇文章来命名，这篇文章也是从网上搜集了一些规范。</p>
+<h2 id="cc">C/C++</h2>
+<h3 id="普通变量">普通变量</h3>
+<p>驼峰命名法：&lt;第一个单词首字母小写，其他单词首字母大写&gt;–printEmployeePaychecks<br>
+下划线命名法：&lt;多个单词使用下划线分隔&gt;–print_employee_paychecks<br>
+帕斯卡命名法：&lt;每个独立单词的首字母都大写&gt;–PrintEmployeePaychecks</p>
+<h3 id="指针变量">指针变量</h3>
+<p>采用&quot;ptr_&quot;+的形式来为指针变量命名<br>
+如：ptr_start; ptr_end</p>
+<h3 id="常量">常量</h3>
+<p>每个字母都采用大写形式，中间用“_”分隔开<br>
+如：CAR_STATUS_1;CAR_STATUS_2</p>
+<h3 id="函数名">函数名</h3>
+<p>命名与普通变量命名相同<br>
+PrintEmployeePaychecks()<br>
+print_employee_paychecks()<br>
+PrintEmployeePaychecks()</p>
+<h3 id="结构体定义">结构体定义</h3>
+<pre><code>typedef struct STUDENT
+{
+    ... ...
+}student;
+</code></pre>
+<h3 id="文件名称">文件名称</h3>
+<p>使用&quot;file_&quot;+大体描述的形式<br>
+file_nameOfStudent;file_NumberOfStudent</p>
+<h2 id="java">JAVA</h2>
+<p>java的命名规则</p>
+<h3 id="普通变量-2">普通变量</h3>
+<p>驼峰命名法：&lt;第一个单词首字母小写，其他单词首字母大写&gt;–printEmployeePaychecks<br>
+下划线命名法：&lt;多个单词使用下划线分隔&gt;–print_employee_paychecks<br>
+帕斯卡命名法：&lt;每个独立单词的首字母都大写&gt;–PrintEmployeePaychecks</p>
+<h3 id="常量-2">常量</h3>
+<p>每个字母都采用大写形式，中间用“_”分隔开<br>
+如：CAR_STATUS_1;CAR_STATUS_2<br>
+方法名<br>
+&lt;驼峰命名法&gt;–printEmployeePaychecks()</p>
+<h3 id="类名">类名</h3>
+<p>帕斯卡命名法：&lt;每个独立单词的首字母都大写&gt;–PrintEmployeePaychecks</p>
+<h3 id="包名">包名</h3>
+<p>这里我一般使用中文命名，如：算法分析<br>
+建议使用驼峰命名法来命名，如：algorithmAnalysis</p>
+<h3 id="项目名">项目名</h3>
+<p>我一般是使用“java”+的形式，如：java排序集合<br>
+接口名与抽象类名称，与类名一样<br>
+异常类名称，使用帕斯卡命名法+Exception,如：SexMissMatchException</p>
+<h2 id="python">python</h2>
+<h3 id="模块名尽量短小并且全部使用小写字母可以使用下划线分隔多个字母-例如game_maingame_register">模块名：尽量短小，并且全部使用小写字母，可以使用下划线分隔多个字母。例如：game_main;game_register</h3>
+<h3 id="包名尽量短小并且全部使用小写字母不推荐使用下划线-例如comlvzeqi-comlv">包名：尽量短小，并且全部使用小写字母，不推荐使用下划线。例如：com.lvzeqi、com.lv</h3>
+<h3 id="类名采用单词首字母大写形式帕斯卡命名法borrrowbook">类名：采用单词首字母大写形式（帕斯卡命名法）BorrrowBook</h3>
+<h3 id="模块内部类采用下划线_帕斯卡命名法-如在borrowbook内部有一个内部类则使用-_borrowbook">模块内部类：采用下划线“_”+帕斯卡命名法。如：在BorrowBook内部有一个内部类，则使用 _BorrowBook</h3>
+<h3 id="函数-类的属性和方法的命名规则同模块类似也是全部使用小写字母多个字母使用下划线分隔">函数、类的属性和方法的命名规则同模块类似，也是全部使用小写字母，多个字母使用下划线分隔</h3>
+<h3 id="常量命名时全部使用大写字母可以使用下划线分隔">常量：命名时全部使用大写字母，可以使用下划线分隔</h3>
+<p>使用单下划线开头的模块变量或者函数是受保护的，在使用from xxx import*语句从模块中导入时这些变量或者函数不能被导入<br>
+使用双下划线“__”开头的实例变量或方法是类私有的</p>
+<p>原文链接：https://blog.csdn.net/LCX13141314/article/details/86773700</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E5%89%8D%E8%A8%80">前言：</a>
+<ul>
+<li><a href="#cc">C/C++</a>
+<ul>
+<li><a href="#%E6%99%AE%E9%80%9A%E5%8F%98%E9%87%8F">普通变量</a></li>
+<li><a href="#%E6%8C%87%E9%92%88%E5%8F%98%E9%87%8F">指针变量</a></li>
+<li><a href="#%E5%B8%B8%E9%87%8F">常量</a></li>
+<li><a href="#%E5%87%BD%E6%95%B0%E5%90%8D">函数名</a></li>
+<li><a href="#%E7%BB%93%E6%9E%84%E4%BD%93%E5%AE%9A%E4%B9%89">结构体定义</a></li>
+<li><a href="#%E6%96%87%E4%BB%B6%E5%90%8D%E7%A7%B0">文件名称</a></li>
+</ul>
+</li>
+<li><a href="#java">JAVA</a>
+<ul>
+<li><a href="#%E6%99%AE%E9%80%9A%E5%8F%98%E9%87%8F-2">普通变量</a></li>
+<li><a href="#%E5%B8%B8%E9%87%8F-2">常量</a></li>
+<li><a href="#%E7%B1%BB%E5%90%8D">类名</a></li>
+<li><a href="#%E5%8C%85%E5%90%8D">包名</a></li>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E5%90%8D">项目名</a></li>
+</ul>
+</li>
+<li><a href="#python">python</a>
+<ul>
+<li><a href="#%E6%A8%A1%E5%9D%97%E5%90%8D%E5%B0%BD%E9%87%8F%E7%9F%AD%E5%B0%8F%E5%B9%B6%E4%B8%94%E5%85%A8%E9%83%A8%E4%BD%BF%E7%94%A8%E5%B0%8F%E5%86%99%E5%AD%97%E6%AF%8D%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E4%B8%8B%E5%88%92%E7%BA%BF%E5%88%86%E9%9A%94%E5%A4%9A%E4%B8%AA%E5%AD%97%E6%AF%8D-%E4%BE%8B%E5%A6%82game_maingame_register">模块名：尽量短小，并且全部使用小写字母，可以使用下划线分隔多个字母。例如：game_main;game_register</a></li>
+<li><a href="#%E5%8C%85%E5%90%8D%E5%B0%BD%E9%87%8F%E7%9F%AD%E5%B0%8F%E5%B9%B6%E4%B8%94%E5%85%A8%E9%83%A8%E4%BD%BF%E7%94%A8%E5%B0%8F%E5%86%99%E5%AD%97%E6%AF%8D%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%E4%B8%8B%E5%88%92%E7%BA%BF-%E4%BE%8B%E5%A6%82comlvzeqi-comlv">包名：尽量短小，并且全部使用小写字母，不推荐使用下划线。例如：com.lvzeqi、com.lv</a></li>
+<li><a href="#%E7%B1%BB%E5%90%8D%E9%87%87%E7%94%A8%E5%8D%95%E8%AF%8D%E9%A6%96%E5%AD%97%E6%AF%8D%E5%A4%A7%E5%86%99%E5%BD%A2%E5%BC%8F%E5%B8%95%E6%96%AF%E5%8D%A1%E5%91%BD%E5%90%8D%E6%B3%95borrrowbook">类名：采用单词首字母大写形式（帕斯卡命名法）BorrrowBook</a></li>
+<li><a href="#%E6%A8%A1%E5%9D%97%E5%86%85%E9%83%A8%E7%B1%BB%E9%87%87%E7%94%A8%E4%B8%8B%E5%88%92%E7%BA%BF_%E5%B8%95%E6%96%AF%E5%8D%A1%E5%91%BD%E5%90%8D%E6%B3%95-%E5%A6%82%E5%9C%A8borrowbook%E5%86%85%E9%83%A8%E6%9C%89%E4%B8%80%E4%B8%AA%E5%86%85%E9%83%A8%E7%B1%BB%E5%88%99%E4%BD%BF%E7%94%A8-_borrowbook">模块内部类：采用下划线“_”+帕斯卡命名法。如：在BorrowBook内部有一个内部类，则使用 _BorrowBook</a></li>
+<li><a href="#%E5%87%BD%E6%95%B0-%E7%B1%BB%E7%9A%84%E5%B1%9E%E6%80%A7%E5%92%8C%E6%96%B9%E6%B3%95%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99%E5%90%8C%E6%A8%A1%E5%9D%97%E7%B1%BB%E4%BC%BC%E4%B9%9F%E6%98%AF%E5%85%A8%E9%83%A8%E4%BD%BF%E7%94%A8%E5%B0%8F%E5%86%99%E5%AD%97%E6%AF%8D%E5%A4%9A%E4%B8%AA%E5%AD%97%E6%AF%8D%E4%BD%BF%E7%94%A8%E4%B8%8B%E5%88%92%E7%BA%BF%E5%88%86%E9%9A%94">函数、类的属性和方法的命名规则同模块类似，也是全部使用小写字母，多个字母使用下划线分隔</a></li>
+<li><a href="#%E5%B8%B8%E9%87%8F%E5%91%BD%E5%90%8D%E6%97%B6%E5%85%A8%E9%83%A8%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%86%99%E5%AD%97%E6%AF%8D%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E4%B8%8B%E5%88%92%E7%BA%BF%E5%88%86%E9%9A%94">常量：命名时全部使用大写字母，可以使用下划线分隔</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://jhunelectronicclub.com/markdown_study/">
+              <h3 class="post-title">
+                markdown教程
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  
+  <a class="rss" href="https://jhunelectronicclub.com/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
