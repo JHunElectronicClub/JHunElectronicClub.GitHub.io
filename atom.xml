@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jhunelectronicclub.com</id>
     <title>江汉大学电子爱好者协会</title>
-    <updated>2021-09-12T03:00:10.625Z</updated>
+    <updated>2021-09-12T04:05:41.445Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jhunelectronicclub.com"/>
     <link rel="self" href="https://jhunelectronicclub.com/atom.xml"/>
@@ -703,7 +703,7 @@ delete mode 100644 test.txt</p>
 <p>这里是江汉大学电子爱好者协会的blog<br>
 期待您的加入</p>
 <h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>暂且是由sym1018在为维护本blog</p>
+<p>暂且是由sym1018在维护本blog</p>
 <h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
 <p>学习 游戏 ACGNM样样精通</p>
 <h2 id="联系我呀">📬 联系我呀</h2>
